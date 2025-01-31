@@ -2,6 +2,63 @@
 
 A web application built with Vue.js frontend and Flask backend that connects influencers with sponsors for campaign collaborations.
 
+### **Home Page: Your Gateway to Influencer Marketing**  
+The home page of InfluConnect welcomes users with a clean and intuitive design. Built with **Vue.js**, it highlights the platform's core features, making it easy for sponsors and influencers to understand the value of the platform at a glance.  
+
+![Home Page](Samples/InfluConnect0.png)  
+
+---
+
+### **User Authentication: Secure and Seamless Access**  
+InfluConnect ensures secure access with its user-friendly signup and signin pages. Whether you're a sponsor, influencer, or admin, the authentication process is smooth and hassle-free, powered by **JWT token-based security**.  
+
+![SignUp Page](Samples/InfluConnect1.png)  
+![SignIn Page](Samples/InfluConnect2.png)  
+
+---
+
+### **Sponsor Dashboard: Manage Campaigns with Ease**  
+The Sponsor Dashboard, built with **Vue.js**, is the control center for sponsors. From here, sponsors can create, manage, and track campaigns, search for influencers, and handle ad requests—all in one place.  
+
+![Sponsor Dashboard](Samples/InfluConnect3.png)  
+
+---
+
+### **Find Influencers: Discover the Perfect Match**  
+Sponsors can search for influencers based on niche, category, and reach. The intuitive filtering system ensures sponsors find the right influencers for their campaigns.  
+
+![Find Influencers](Samples/InfluConnect4.png)  
+
+---
+
+### **Ad Request Management: Streamlined Collaboration**  
+The Ad Requests feature allows sponsors to send collaboration requests to influencers. Influencers can respond with acceptance, rejection, or negotiation, making the process transparent and efficient.  
+
+![Ad Request Management](Samples/InfluConnect5.png)  
+
+---
+
+### **Export Campaign Data: Stay Organized**  
+Sponsors can export campaign data directly to their email, ensuring they have all the information they need to analyze and optimize their campaigns.  
+
+![Export Campaign Data](Samples/InfluConnect6.png)  
+
+---
+
+### **Influencer Dashboard: Collaborate and Grow**  
+The Influencer Dashboard empowers influencers to manage their profiles, browse campaigns, and respond to ad requests. It’s designed to help influencers maximize their reach and engagement.  
+
+![Influencer Dashboard](Samples/InfluConnect7.png)  
+
+---
+
+### **Admin Dashboard: Full Control Over the Platform**  
+The Admin Dashboard provides administrators with the tools to manage the platform effectively. From user management to campaign oversight, admins have full control to ensure the platform runs smoothly.  
+
+![Admin Dashboard](Samples/InfluConnect8.png)  
+
+---
+
 ## Features
 
 ### User Authentication
@@ -141,65 +198,6 @@ app.config['MAIL_PASSWORD'] = None
 - Ensure Redis server is running before using export functionality
 - For production, configure proper email settings
 - Use environment variables for sensitive information
-
-## Screenshots  
-
-### **Home Page: Your Gateway to Influencer Marketing**  
-The home page of InfluConnect welcomes users with a clean and intuitive design. Built with **Vue.js**, it highlights the platform's core features, making it easy for sponsors and influencers to understand the value of the platform at a glance.  
-
-![Home Page](Samples/InfluConnect0.png)  
-
----
-
-### **User Authentication: Secure and Seamless Access**  
-InfluConnect ensures secure access with its user-friendly signup and signin pages. Whether you're a sponsor, influencer, or admin, the authentication process is smooth and hassle-free, powered by **JWT token-based security**.  
-
-![SignUp Page](Samples/InfluConnect1.png)  
-![SignIn Page](Samples/InfluConnect2.png)  
-
----
-
-### **Sponsor Dashboard: Manage Campaigns with Ease**  
-The Sponsor Dashboard, built with **Vue.js**, is the control center for sponsors. From here, sponsors can create, manage, and track campaigns, search for influencers, and handle ad requests—all in one place.  
-
-![Sponsor Dashboard](Samples/InfluConnect3.png)  
-
----
-
-### **Find Influencers: Discover the Perfect Match**  
-Sponsors can search for influencers based on niche, category, and reach. The intuitive filtering system ensures sponsors find the right influencers for their campaigns.  
-
-![Find Influencers](Samples/InfluConnect4.png)  
-
----
-
-### **Ad Request Management: Streamlined Collaboration**  
-The Ad Requests feature allows sponsors to send collaboration requests to influencers. Influencers can respond with acceptance, rejection, or negotiation, making the process transparent and efficient.  
-
-![Ad Request Management](Samples/InfluConnect5.png)  
-
----
-
-### **Export Campaign Data: Stay Organized**  
-Sponsors can export campaign data directly to their email, ensuring they have all the information they need to analyze and optimize their campaigns.  
-
-![Export Campaign Data](Samples/InfluConnect6.png)  
-
----
-
-### **Influencer Dashboard: Collaborate and Grow**  
-The Influencer Dashboard empowers influencers to manage their profiles, browse campaigns, and respond to ad requests. It’s designed to help influencers maximize their reach and engagement.  
-
-![Influencer Dashboard](Samples/InfluConnect7.png)  
-
----
-
-### **Admin Dashboard: Full Control Over the Platform**  
-The Admin Dashboard provides administrators with the tools to manage the platform effectively. From user management to campaign oversight, admins have full control to ensure the platform runs smoothly.  
-
-![Admin Dashboard](Samples/InfluConnect8.png)  
-
----
 
 ## Conclusion  
 
