@@ -124,7 +124,7 @@ python app.py
 ### Frontend Setup
 1. Navigate to the frontend directory
 ```bash
-cd influencer-sponsor-frontend
+cd influencer-sponsor-platform
 ```
 
 2. Install Node.js dependencies
